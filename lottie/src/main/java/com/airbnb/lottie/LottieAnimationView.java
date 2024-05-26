@@ -69,7 +69,7 @@ import java.util.Set;
       Logger.warning("Unable to load composition.", throwable);
       return;
     }
-    throw new IllegalStateException("Unable to parse composition", throwable);
+    //throw new IllegalStateException("Unable to parse composition", throwable);
   };
 
   private final LottieListener<LottieComposition> loadedListener = this::setComposition;
